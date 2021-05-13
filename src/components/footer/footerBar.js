@@ -1,7 +1,7 @@
 function FooterBar() {
     return (
-        <div className="HeaderBar">
-            Footer
+        <div className="FooterBar">
+            Copyright © 2021 Affordable Appliance Center 
         </div>
     );
 }

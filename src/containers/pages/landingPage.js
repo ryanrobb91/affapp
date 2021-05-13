@@ -1,5 +1,5 @@
 import HeaderBar from '../../components/header/headerBar'
-import FooterBar from '../../components/header/headerBar'
+import FooterBar from '../../components/footer/footerBar'
 import ZipCodeEntry from '../section/zipCodeEntry'
 import OutlineOfServices from '../section/outlineOfServices'
 import OurStory from '../section/ourStory'
