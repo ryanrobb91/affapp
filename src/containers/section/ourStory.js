@@ -2,33 +2,37 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import tenYearsOfRepair from '../../assets/IMG_1116.jpg';
+import serviceTechs from '../../assets/IMG_1118.jpg';
+import community from '../../assets/IMG_1118.jpg';
+
 function OurStory() {
     return (
-        <Container className="OurStory">
+        <Container fluid className="OurStory BodyContainer">
             <Row>
                 <Col xs={12}>
                     <h1>Our Story</h1>
                 </Col>
             </Row>
-            <Row>
+            <Row className="RowDefault">
                 <Col sm={12} md={6}>
-                    <img></img>
+                    <img src={tenYearsOfRepair}/>
                 </Col>
                 <Col sm={12} md={6}>
                     <p>Toby Baker have been doing repairs for 10+ years as a certified repair technician</p>
                 </Col>
             </Row>
-            <Row>
+            <Row className="RowDefault ColoredRow">
                 <Col sm={12} md={6}>
-                    <img></img>
+                    <img src={serviceTechs}/>
                 </Col>
                 <Col sm={12, { order: 'last' }} md={6, { order: 'first' }}>
                     <p>Each service technician has at least 5 years of experience with servicing washers and dryers </p>
                 </Col>
             </Row>
-            <Row>
+            <Row className="RowDefault">
                 <Col sm={12} md={6}>
-                    <img></img>
+                    <img src={community}/>
                 </Col>
                 <Col sm={12} md={6}>
                     <p>Started the company in 2020 to provide affordable repair services for people in his community</p>

@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  background-image: url(./dryer-repair-830-4641.png);
-  background-repeat: no-repeat, repeat;
   width: 100%;
 }
 
@@ -16,20 +14,60 @@
   }
 }
 
-.App-header {
-  min-height: 100vh;
+.Header {
+  border-bottom: black;
+  border-width: thick;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-
-  
+  align-content: center;
+  height: fit-content;
 }
 
-.Background-Img {
-  background-image: url(./dryer-repair-830-4641.png);
+@media only screen and (max-width: 600px) {
+  .Header .App-header{
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) { 
+  .navbar-expand-lg {
+    justify-content: space-between !important;
+  }
+}
+
+
+.Footer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.Body{
+  height: 100%;
+  margin-top: 8rem;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  background-color: white;
+  justify-content: space-between;
+}
+
+.App-header img {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  /* margin-right: 1rem; */
+  font-size: 1.25rem;
+  line-height: inherit;
+}
+
+.App-header p {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  padding-right: 5rem;
+  /* margin-right: 1rem; */
+  font-size: 1.25rem;
+  line-height: inherit;
 }
 
 .App-link {
@@ -43,4 +81,80 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.BodyContainer {
+  padding: 2rem 0;
+}
+
+.ColoredRow {
+  background-color: rgb(0, 123, 255, 0.7);
+}
+
+.RowDefault {
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.ZipCodeEntry{
+  padding: 5rem 0;
+  height: 615px;
+  background-size: cover;
+  background-image: url('./assets/IMG_1138.jpg');
+}
+
+.ZipCodeEntry .row{
+  padding: 0.5rem 0;
+}
+
+.ZipCodeEntry h1{
+  color: antiquewhite;
+}
+
+.OurStory .row img{
+  width: 100%;
+}
+
+.OurStory .row [class*="col"]{
+  margin: auto;
+}
+
+.OurStory .row p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;  
+}
+
+svg {
+  margin: auto;
+}
+
+.Contact .row [class*="col"]{
+  text-align: left;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.Contact .row h1{
+  text-align: center;
+  margin: auto;
+}
+
+.Contact .row h3{
+  margin: auto;
+  color: black;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.Contact .row a{
+  margin: auto;
+  color: darkslategrey;
+  font-weight: bolder;
+  font-size: 2rem;  
+}
+
+.centerAlign {
+  text-align: center !important;
 }
