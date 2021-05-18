@@ -14,7 +14,7 @@ function Contact() {
                 <Col sm={12} md={6}>
                     <Row>
                         <Col md={{span: 2, offset: 2 }} className="centerAlign">
-                            <Icon size="128" viewBox="0 0 24 24" icon={IconLib.phone} className="centerAlign"/>
+                            <Icon size="6" viewBox="0 0 24 24" icon={IconLib.phone} className="centerAlign"/>
                         </Col>
                         <Col md={{span: 8}}>
                             <h3>Phone Number:</h3>
@@ -25,7 +25,7 @@ function Contact() {
                 <Col sm={12} md={6}>
                     <Row>
                         <Col md={{span: 2, offset: 2 }} className="centerAlign">
-                            <Icon size="128" viewBox="0 0 24 24" icon={IconLib.email}/>
+                            <Icon size="6" viewBox="0 0 24 24" icon={IconLib.email}/>
                         </Col>
                         <Col md={{span: 8}}>
                             <h3>Email:</h3>
