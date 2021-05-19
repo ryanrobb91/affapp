@@ -19,7 +19,7 @@ function OurStory() {
                     <img src={startingPrice}/>
                 </Col>
                 <Col sm={12} md={6}>
-                    <p>Toby Baker have been doing repairs for 10+ years as a certified repair technician</p>
+                    <p>Toby Baker and Wolf Baker have been doing repairs for 10+ years as a certified repair technician</p>
                 </Col>
             </Row>
             <Row className="RowDefault ColoredRow">

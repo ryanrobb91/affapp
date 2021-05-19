@@ -124,8 +124,8 @@
   padding: 5rem 0;
   height: 615px;
   background-size: cover;
-  background-image: url('./assets/IMG_1138.jpg');
-  background-position: 25%;
+  background-image: url('./assets/backgroundImg.jpg');
+  background-position: 15%;
 }
 
 .ZipCodeEntry .row{
