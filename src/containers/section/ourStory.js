@@ -32,7 +32,7 @@ function OurStory() {
             </Row>
             <Row className="RowDefault">
                 <Col sm={12} md={6}>
-                    <img src={serviceTechs}/>
+                    <img src={serviceTechs} style={{height:'10%'}}/>
                 </Col>
                 <Col sm={12} md={6}>
                     <p>Started the company in 2020 to provide affordable repair services for people in his community</p>

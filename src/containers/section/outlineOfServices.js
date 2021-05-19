@@ -11,7 +11,7 @@ function OutlineOfServices() {
             <Row className="RowDefault">
                 <Col sm={12} md={6}>
                     <Row>
-                        <Col md={12} lg={{span: 2, offset: 1}} style={{textAlign: 'center', paddingBottom: '1rem'}}>
+                        <Col md={12} lg={{span: 2, offset: 1}} style={{textAlign: 'center', paddingBottom: '1rem', paddingTop: '1rem'}}>
                             <Icon size="6" viewBox="0 0 24 24" icon={IconLib.repair}/>
                         </Col>
                         <Col md={12} lg={9} style={{paddingLeft: '4rem'}}>
@@ -23,7 +23,7 @@ function OutlineOfServices() {
                 </Col>
                 <Col sm={12} md={6}>
                     <Row>
-                        <Col md={12} lg={{span: 2, offset: 1}} style={{textAlign: 'center', paddingBottom: '1rem'}}>
+                        <Col md={12} lg={{span: 2, offset: 1}} style={{textAlign: 'center', paddingBottom: '1rem', paddingTop: '1rem'}}>
                             <WasherIcon size="6" viewBox="0 0 512 512"/>
                         </Col>
                         <Col md={12} lg={9} style={{paddingLeft: '4rem'}}>

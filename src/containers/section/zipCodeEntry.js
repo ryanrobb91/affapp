@@ -17,15 +17,15 @@ function ZipCodeEntry() {
                 <Modal.Header closeButton>
                     <Modal.Title>We Deliver!</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Anything location past 25 miles will have a $39.99 surcharge</Modal.Body>
+                <Modal.Body>We will deliver for free within 25 miles. Delivery starts at $29.99 over 25 miles</Modal.Body>
                 <Modal.Footer>
-                <Button variant="primary" onClick={handleClose}>
-                    Confirm
-                </Button>
+                    <Button variant="primary" onClick={handleClose}>
+                        Confirm
+                    </Button>
                 </Modal.Footer>
             </Modal>
             <Row>
-                <Col xs={{span: 6, offset: 3}}>
+                <Col xs={{span: 10, offset: 1}} sm={{span: 6, offset: 3}}>
                     <h1>Enter Your Zip Code to See if You’re in Our Service Area</h1>
                 </Col>
             </Row>
