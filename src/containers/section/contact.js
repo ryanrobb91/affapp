@@ -13,10 +13,10 @@ function Contact() {
             <Row>
                 <Col sm={12} md={6}>
                     <Row>
-                        <Col md={{span: 2, offset: 2 }} className="centerAlign">
+                        <Col md={{span: 2, offset: 2 }} className="CenterAlign">
                             <Icon size="6" viewBox="0 0 24 24" icon={IconLib.phone} className="centerAlign"/>
                         </Col>
-                        <Col md={{span: 8}}>
+                        <Col md={{span: 8}} className="ContactText">
                             <h3>Phone Number:</h3>
                             <a href="tel:+1-513-464-3959">(513) 464-3959</a>
                         </Col>
@@ -24,10 +24,10 @@ function Contact() {
                 </Col>
                 <Col sm={12} md={6}>
                     <Row>
-                        <Col md={{span: 2, offset: 2 }} className="centerAlign">
+                        <Col md={{span: 2, offset: 2 }} className="CenterAlign">
                             <Icon size="6" viewBox="0 0 24 24" icon={IconLib.email}/>
                         </Col>
-                        <Col md={{span: 8}}>
+                        <Col md={{span: 8}} className="ContactText">
                             <h3>Email:</h3>
                             <a href={"mailto:Tobydbaker1@gmail.com?subject=Lets Talk Business!"} target="_blank">Tobydbaker1@gmail.com</a>
                         </Col>

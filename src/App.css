@@ -31,11 +31,30 @@
     height: 4rem;
     width: 4rem
   }
+  
+  .Contact .row [class*="col"]{
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .RowDefault {
+    padding: 0;
+    text-align: left;
+  }
 }
 
 @media (min-width: 992px) { 
   .navbar-expand-lg {
     justify-content: space-between !important;
+  }
+  
+  .Contact .row [class*="col"]{
+    text-align: left;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -106,6 +125,7 @@
   height: 615px;
   background-size: cover;
   background-image: url('./assets/IMG_1138.jpg');
+  background-position: 25%;
 }
 
 .ZipCodeEntry .row{
@@ -113,7 +133,8 @@
 }
 
 .ZipCodeEntry h1{
-  color: antiquewhite;
+  color:cornsilk;
+  text-shadow: 2px 1px blue;
 }
 
 .OurStory .row img{
@@ -132,13 +153,6 @@
 
 svg {
   margin: auto;
-}
-
-.Contact .row [class*="col"]{
-  text-align: left;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .Contact .row h1{
@@ -160,6 +174,6 @@ svg {
   font-size: 2rem;  
 }
 
-.centerAlign {
+.CenterAlign {
   text-align: center !important;
 }
