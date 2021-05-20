@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 import tenYearsOfRepair from '../../assets/IMG_1116.jpg';
 import startingPrice from '../../assets/wolf.jpg';
-import serviceTechs from '../../assets/IMG_1118.jpg';
+import serviceTechs from '../../assets/IMG_1118resized.jpg';
 
 function OurStory() {
     return (
@@ -32,7 +32,7 @@ function OurStory() {
             </Row>
             <Row className="RowDefault">
                 <Col sm={12} md={6}>
-                    <img src={serviceTechs} style={{height:'10%'}}/>
+                    <img src={serviceTechs} style={{width:'50%', display:'flex', margin: 'auto'}}/>
                 </Col>
                 <Col sm={12} md={6}>
                     <p>Started the company in 2020 to provide affordable repair services for people in his community</p>
