@@ -15,7 +15,7 @@ function OutlineOfServices() {
                             <Icon size="6" viewBox="0 0 24 24" icon={IconLib.repair}/>
                         </Col>
                         <Col md={12} lg={9} style={{paddingLeft: '4rem'}}>
-                            <h1>Washer Repair:</h1>
+                            <h1>Washer Repair</h1>
                             <p>$69.99 Inspection Fee, Waived if We Do the Work for You</p>
                             <p>$100 Service Fee, No Markup on Parts</p>
                         </Col>
@@ -27,7 +27,7 @@ function OutlineOfServices() {
                             <WasherIcon size="6" viewBox="0 0 512 512"/>
                         </Col>
                         <Col md={12} lg={9} style={{paddingLeft: '4rem'}}>
-                            <h1>Buy New Washers/Dryers:</h1>
+                            <h1>Buy New Washers/Dryers</h1>
                             <p>Free Pickup of Old Washer/Dryer</p>
                             <p>Free Delivery of New Washer/Dryer</p>
                         </Col>
